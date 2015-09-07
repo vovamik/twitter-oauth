@@ -7,7 +7,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": https://github.com/vovamik/twitter-oauth.git
+            "url": "https://github.com/vovamik/twitter-oauth.git"
         }
     ]
 }
