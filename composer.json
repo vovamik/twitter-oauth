@@ -5,14 +5,16 @@
     "minimum-stability": "dev",
 
     "repositories": 
+        [
         {
+            "type": "vcs",
             "url": "https://github.com/vovamik/twitter-oauth.git"
-        }
+        }],
 
     "autoload": {
         "psr-0": {
             "Twitter": "src/"
-        }
+        },
     }
 
 
