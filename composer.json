@@ -1,0 +1,13 @@
+{
+    "name": "OAuth Twiwtter",
+    "description": "PHP file to connect Twiwtter ",
+
+    "minimum-stability": "dev",
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": https://github.com/vovamik/twitter-oauth.git
+        }
+    ]
+}
