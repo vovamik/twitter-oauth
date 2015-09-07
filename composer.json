@@ -1,13 +1,20 @@
 {
     "name": "OAuth Twiwtter",
-    "description": "PHP file to connect Twiwtter ",
+    "description": "PHP file to connect Twitter ",
 
     "minimum-stability": "dev",
 
-    "repositories": [
+    "repositories": 
         {
-            "type": "vcs",
             "url": "https://github.com/vovamik/twitter-oauth.git"
         }
-    ]
+
+    "autoload": {
+        "psr-0": {
+            "Twitter": "src/"
+        }
+    }
+
+
+
 }
